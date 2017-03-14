@@ -129,6 +129,7 @@ public class SwiftPopMenu: UIView {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.bounces = false
+        tableView.separatorStyle = .none
         UIView.animate(withDuration: 0.3) { 
             self.addSubview(self.tableView)
         }
